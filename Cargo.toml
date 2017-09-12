@@ -1,0 +1,13 @@
+[package]
+name = "bar"
+version = "0.1.0"
+authors = ["too-r <william@huddie.net>"]
+
+[dependencies]
+i3ipc = "0.5.0"
+time = "*"
+toml = "*"
+serde_derive = "*"
+serde = "*"
+regex = "*"
+libudev = "*"
