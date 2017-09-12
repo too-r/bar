@@ -1,3 +1,7 @@
+/*Credit for most of this code goes to UndeadLeech (https://github.com/chrisduerr/bar-helpers)
+ This is very rough and pretty crappy code, but it works for me as a lemonbar thingy. You will need to change the path of the config file in config.rs if you want to use a different location for the TOML config file.
+ An example config is included in my dotfiles repository, too-r/dotfiles.
+*/
 extern crate i3ipc;
 extern crate time;
 #[macro_use]
