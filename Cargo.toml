@@ -1,13 +1,15 @@
 [package]
+authors = ["too-r <william@huddie.net>"]
 name = "bar"
 version = "0.1.0"
-authors = ["too-r <william@huddie.net>"]
-
 [dependencies]
+chan = "*"
+env_logger = "*"
 i3ipc = "0.5.0"
+leechbar = "0.4.1"
+libudev = "*"
+regex = "*"
+serde = "*"
+serde_derive = "*"
 time = "*"
 toml = "*"
-serde_derive = "*"
-serde = "*"
-regex = "*"
-libudev = "*"
